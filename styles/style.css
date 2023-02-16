@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: leaguespartans;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    color:rgb(1, 51, 153);
+    font-family: leaguespartans;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(1, 51, 153);
+}
+
+a:hover{
+    color: rgb(1, 51, 153);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(1, 51, 153);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(1, 51, 153);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(1, 51, 153);
+}
+
+p{
+    line-height: 20px;
+    max-width: 1200px;
+    text-align: center;
+    font-family: poppinslight;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(1, 51, 153);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(1, 51, 153);
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+  }
+
+.limiter {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    border-radius: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: rgb(1, 51, 153, 0.5);  
+}
+
+.container-login1000 {
+    align-items: center;
+}
+
+.wrap-login100 {
+    width: 390px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 55px 33px 45px;
+}
+
+.login100-form {
+    width: 100%;
+}
+
+.input100 {
+    font-family: poppinslight;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px;
+  }
+
+  .input1000 {
+    font-family: poppinslight;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 75%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px;
+  }
+
+  input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px rgb(1, 51, 153);
+    background-color: rgb(1, 51, 153, 0,5);
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    width: px;
+    height: 200px;
+    line-height: 20px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontes -->
+    <link href="/styles/style.css" rel="stylesheet">
+    <link href="/styles/fonts.css" rel="stylesheet">
+    <link href="/styles/media.css" rel="stylesheet">
+
+    <!-- Título -->
+    <title>Decodificando - Educação & Tecnologia</title>
+    <link rel="icon" type="image/png" href="./components/images/icone1.png"/>
+
+    <!-- Ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>//decodificando</h1>
+        </div>
+
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="sobre.html"><li>Sobre</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="login.html" id="inscreva-se-btn"><li>Já Sou Aluno</li></a>
+        </ul>
+    </header>
+
+    <main>
+        <div>
+            <p style="text-align:center;"> <img src="./components/images/contato.png" height="650" width="1200"></p>
+            <form name="meu_form">
+                <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+                <input type="tel" id="foneid" placeholder="Celular" name="fone" />
+                <input type="email" id="emailid" placeholder="E-mail" name="email" />
+                <br/>
+                <textarea type="text" placeholder="Descrição"></textarea>
+                <input type="submit" class="inscreva-se-btn" onclick="Enviar();" value="Enviar" />
+            </form>
+        </div>  
+    </main>
+    
+    <footer>
+        <br/><br/><br/>
+        <hr>
+        <div>Copyright &copy; //decodificando - Educação & Tecnologia</div>
+        <div>2023</div>
+    </footer>
+    
+</body>
+</html>
